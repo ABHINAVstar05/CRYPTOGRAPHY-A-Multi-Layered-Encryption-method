@@ -1,5 +1,4 @@
 # CRYPTOGRAPHY-A-Multi-Layered-Encryption-method
-> Inspired by: https://www.ijser.org/researchpaper/Secured-Communication-through-Fibonacci-Numbers-and-Unicode-Symbols.pdf
 
 This is a cryptography based 3 layered encryption method to secure messages and data exchanged between sender and receiver over insecure communication channel with the help of a common key selected by the sender and receiver.
 
@@ -9,11 +8,11 @@ This is a cryptography based 3 layered encryption method to secure messages and 
  
  **In the 2nd layer**, the ciphertext1 is converted into ciphertext2. This is done by obtaining the ASCII values of each character of the ciphertext1 and its corresponding character in the plaintext and then adding both of them together. This process is repeated for every character in the ciphertext1 and in this way, we obtain a series of ASCII values corresponding to each character in the ciphertext1. By now, ciphertext2 is ready.
  
- **In the 3rd and final layer**, the ASCII value corresponding to each character in the ciphertext2 (or plaintext) is converted from decimal to hexa-decimal form which is then converted into Unicode symbols accordingly and the ciphertext3 is obtained.
+ **In the 3rd and final layer**, the ASCII value corresponding to each character in the ciphertext2 (or plaintext) is converted from decimal to hexa-decimal form and the ciphertext3 is obtained.
  
  ## Steps involved in Encryption
     1. Suppose a sender wants to send a Hello message to a recipient.
     2. The  original  message,  also  called  plaintext,  is  converted  to cipher  text  by  using  a  key  and  Fibonacci  numbers.  The  algorithm  being  used  can  produce  a different ciphertext each time a different key is selected.
     3. The ciphertext is then converted to ASCII values.
-    4. These ASCII values are then converted to hexa-decimal values and then to Unicode symbols.
+    4. These ASCII values are then converted to hexa-decimal values.
     5. Thus, the plaintext is converted into ciphertext. 
